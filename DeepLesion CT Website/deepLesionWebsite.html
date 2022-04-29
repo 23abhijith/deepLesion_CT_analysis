@@ -1,0 +1,66 @@
+<!-- The structure for this template is code adapted from https://cs.nyu.edu/~deigen/depth/ -->
+<!-- Please site this website if made public -->
+<HTML>
+<HEAD>
+<title>Optimizing CT scan slice count through Lesion detection using YOLO</title>
+<LINK REL="stylesheet" HREF="style.css">
+</HEAD>
+<BODY bgcolor="white">
+<center>
+<h2>Optimizing CT scan slice count through Lesion detection using YOLO</h2>
+<h3>Abhijith Tammanagari &nbsp;&nbsp;&nbsp;&nbsp;
+    Satvik Kishore
+</h3>
+<h4>
+at396<!-- x -->@<!-- -->duke.<!-- h -->edu
+&nbsp;&nbsp;&nbsp;
+sk741<!-- x -->@<!-- -->duke.<!-- h -->edu
+</h4>
+<p>
+<table border=0 width="25%">
+<tr>
+<!-- Provide link to your paper below -->
+<td align="center"><a href="https://github.com/23abhijith/deepLesion_CT_analysis/blob/main/Final_paper.pdf"><font size="+1">Paper PDF</font></a>
+</tr>
+</table>
+
+<!-- Provide link to your "teaser figure - this should summarize your findings at a glace" -->
+<p>
+<img src="modelDetection.png" width="60%">
+<p>
+<table width="80%">
+<tr><td align="left">
+<p>
+    Computer Tomography(CT) scans are often used to identify lesions of different types in bone, liver, lung, kidney, and soft tissues. 
+    CT scanning machines have various specifications with one distinguishing factor being the number of slices in the receiver. 
+    This slice count is a driving factor in CT machine prices. 
+    We want to find out what is the minimum number of slices in a CT scanner that retains the ability to identify lesions. 
+    Reducing the number of slices brings down cost of operation while also reducing the radiation exposure to the patients. 
+    We used sinogram reconstruction to simulate the various slice counts of 16,64, and 128.
+     We then trained an object detection model on that data-set and determined that a 64 slice CT scanner, in terms of mean-average precision, has similar performance to that of a 128 slice CT scanner.
+
+<p>
+
+<tr><td align="center">
+<br>
+
+<!-- Provide link to your write-up -->
+<tr><td align="left">
+Paper:
+<ul>
+<li><a href="https://github.com/23abhijith/deepLesion_CT_analysis/blob/main/Final_paper.pdf"><font size="+1">Paper PDF</font></a>
+</ul>
+
+<tr><td align="left">
+Code and Data:
+<ul>
+<li>You can provide a link to your code here: <a href="https://github.com/23abhijith/deepLesion_CT_analysis">Github</a>
+<li>If you'd like, you can provide a link to your data here: <a href="https://nihcc.app.box.com/v/DeepLesion/">DeepLesion Dataset</a>
+</ul>
+
+</table>
+</center>
+
+
+
+</BODY>
